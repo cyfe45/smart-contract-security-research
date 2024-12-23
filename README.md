@@ -1,5 +1,3 @@
-Here's a comprehensive README.md structure for a smart contract security researcher's portfolio:
-
 ## About Me
 A brief introduction highlighting your expertise in smart contract security research and blockchain technology.
 
