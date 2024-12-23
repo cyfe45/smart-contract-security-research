@@ -55,9 +55,10 @@ A brief introduction highlighting your expertise in smart contract security rese
 ## Repository Structure
 ```
 /
-├── audit-reports/
-├── research-papers/
+├── audits/
+├── research/
 ├── tools/
 ├── poc/
+├── examples/
 └── presentations/
 ```
