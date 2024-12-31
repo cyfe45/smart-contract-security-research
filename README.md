@@ -8,6 +8,9 @@ A brief introduction highlighting your expertise in smart contract security rese
 - Severity classifications and impact analysis
 - Recommended remediation strategies
 
+**Forensics**
+- Collection of forensic reports
+
 **Research Projects**
 - Smart contract vulnerability analysis
 - Researching novel attack vectors
