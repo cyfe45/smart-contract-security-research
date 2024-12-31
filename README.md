@@ -56,6 +56,7 @@ A brief introduction highlighting your expertise in smart contract security rese
 ```
 /
 ├── audits/
+├── forensics/
 ├── research/
 ├── tools/
 ├── poc/
