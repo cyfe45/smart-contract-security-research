@@ -7,7 +7,7 @@ An approach to master smart contract security research using the semantic tree a
 ## **1. Consolidate Your Foundation**
 Ensure you have a strong grasp of:
 - **Solidity**: Write and deploy numerous smart contracts to deeply understand the language's quirks and vulnerabilities[6][9].
-- **Blockchain Basics**: Understand how blockchains operate, including transaction mechanisms, consensus protocols, and gas optimizations[9].
+- **Blockchain Basics**: Understand how blockchains operate, including transaction mechanisms, consensus protocols, and gas optimisations[9].
 - **Cyfrin Updraft:** Complete courses provided by Cyfrin Updraft
 - **MIT Computer Science Open Source Learning** 
 
