@@ -54,14 +54,13 @@ Using the semantic tree approach, organise your learning as follows:
 Let'smake Web3 a safer place!
 
 **Links:**
-
-[1] [PDF] Security Defense For Smart Contracts: A Comprehensive Survey https://arxiv.org/pdf/2302.07347.pdf
-[2] Smart Contract Vulnerability Detection Model Based on Multi-Task ... https://pmc.ncbi.nlm.nih.gov/articles/PMC8914670/
-[3] Updraft Changes Lives: Taxi Driver to Security Researcher - Cyfrin https://www.cyfrin.io/success-stories/from-taxi-driver-to-security-researcher-updraft-changes-lives
-[4] How to become a smart contract security researcher - YouTube https://www.youtube.com/watch?v=QL5kYO7eD4o
-[5] A Smart Contract Vulnerability Detection Model Based on Syntactic ... https://onlinelibrary.wiley.com/doi/10.1155/2023/9212269
-[6] Can someone tell me step by step, a roadmap type stuff for learning ... https://www.reddit.com/r/ethdev/comments/18oatwj/can_someone_tell_me_step_by_step_a_roadmap_type/
-[7] Smart Contract Security Audit Repository - GitHub https://github.com/sv1sjp/smart_contract_security_audit
-[8] [PDF] Smart Contracts Vulnerability Auditing with Multi-semantics https://yanxiao6.github.io/papers/Smart%20Contracts%20compsac20.pdf
-[9] Learn Smart Contract Security and Auditing - Cyfrin Updraft https://updraft.cyfrin.io/courses/security
+1. [PDF] Security Defense For Smart Contracts: A Comprehensive Survey https://arxiv.org/pdf/2302.07347.pdf
+2. Smart Contract Vulnerability Detection Model Based on Multi-Task ... https://pmc.ncbi.nlm.nih.gov/articles/PMC8914670/
+3. Updraft Changes Lives: Taxi Driver to Security Researcher - Cyfrin https://www.cyfrin.io/success-stories/from-taxi-driver-to-security-researcher-updraft-changes-lives
+4. How to become a smart contract security researcher - YouTube https://www.youtube.com/watch?v=QL5kYO7eD4o
+5. A Smart Contract Vulnerability Detection Model Based on Syntactic ... https://onlinelibrary.wiley.com/doi/10.1155/2023/9212269
+6. Can someone tell me step by step, a roadmap type stuff for learning ... https://www.reddit.com/r/ethdev/comments/18oatwj/can_someone_tell_me_step_by_step_a_roadmap_type/
+7. Smart Contract Security Audit Repository - GitHub https://github.com/sv1sjp/smart_contract_security_audit
+8. [PDF] Smart Contracts Vulnerability Auditing with Multi-semantics https://yanxiao6.github.io/papers/Smart%20Contracts%20compsac20.pdf
+9. Learn Smart Contract Security and Auditing - Cyfrin Updraft https://updraft.cyfrin.io/courses/security
 
