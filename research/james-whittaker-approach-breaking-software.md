@@ -8,7 +8,7 @@ Following the **[podcast](https://www.youtube.com/watch?v=Kv45FmLJFLc&t=2573s)**
 Whittaker's approach encourages testers to:
 - **Think like an attacker**: Identify areas where the software is most likely to fail.
 - **Focus on exploratory testing**: Use insight and experience to uncover unexpected vulnerabilities.
-- **Adapt dynamically**: [Modify testing strategies based on findings during the process instead of sticking to predefined scripts][1], [4], [7].
+- **Adapt dynamically**: Modify testing strategies based on findings during the process instead of sticking to predefined scripts [1], [4], [7].
 
 These principles align well with the challenges of auditing smart contracts, which often involve complex logic, immutable deployment, and financial risks.
 
@@ -19,8 +19,8 @@ These principles align well with the challenges of auditing smart contracts, whi
 ### 1. **Exploratory Testing for Vulnerability Discovery**
    - **Dynamic Exploration**: Instead of relying solely on automated tools or predefined test cases, auditors can explore the smart contract code dynamically. For example:
      - Test edge cases in contract functions, such as boundary conditions for input variables.
-     - [Simulate unexpected interactions between multiple contracts to identify logic vulnerabilities][1], [4].
-   - **Creative Attack Modelling**: Use Whittaker's "attack patterns" concept to simulate real-world attack scenarios, such as reentrancy attacks, integer overflows, or privilege escalation attempts[7][9].
+     - Simulate unexpected interactions between multiple contracts to identify logic vulnerabilities [1], [4].
+   - **Creative Attack Modelling**: Use Whittaker's "attack patterns" concept to simulate real-world attack scenarios, such as reentrancy attacks, integer overflows, or privilege escalation attempts [7], [9].
 
 ### 2. **Focus on High-Risk Areas**
    - **Critical Path Analysis**: Identify and prioritise testing of high-impact areas in the smart contract, such as functions handling user funds or access control mechanisms.
@@ -29,8 +29,8 @@ These principles align well with the challenges of auditing smart contracts, whi
 ### 3. **Flexible Testing Strategies**
    - **On-the-Fly Adjustments**: As issues are discovered during the audit, adapt the testing strategy to focus on related vulnerabilities. For instance:
      - If a reentrancy issue is found in one function, test other functions for similar patterns.
-     - [If gas inefficiency is detected, analyse other computationally intensive parts of the contract for optimisation opportunities][1][9].
-   - **Iterative Testing**: [Combine manual and automated testing iteratively. Automated tools can identify basic issues (e.g., unused variables or syntax errors), while manual exploratory testing uncovers deeper logical flaws][2], [8].
+     - If gas inefficiency is detected, analyse other computationally intensive parts of the contract for optimisation opportunities [1], [9].
+   - **Iterative Testing**: Combine manual and automated testing iteratively. Automated tools can identify basic issues (e.g., unused variables or syntax errors), while manual exploratory testing uncovers deeper logical flaws [2], [8].
 
 ---
 
@@ -38,18 +38,18 @@ These principles align well with the challenges of auditing smart contracts, whi
 
 | Audit Phase              | Application of Whittaker’s Techniques                                                                     |
 | ------------------------ | --------------------------------------------------------------------------------------------------------- |
-| **Documentation Review** | [Analyse design documents and codebase with an attacker’s mindset; identify potential weak points][5].      |
-| **Automated Testing**    | [Use formal verification tools but supplement them with exploratory techniques for edge cases][2][8].       |
-| **Manual Code Review**   | [Apply flexible “off-script” testing strategies; focus on dynamic interactions and hidden dependencies][9]. |
-| **Error Classification** | [Prioritise findings based on severity (e.g., critical exploits vs. minor inefficiencies)][2].              |
-| **Reporting & Feedback** | [Provide actionable insights while encouraging iterative improvements based on discovered issues][9].       |
+| **Documentation Review** | Analyse design documents and codebase with an attacker’s mindset; identify potential weak points [5].      |
+| **Automated Testing**    | Use formal verification tools but supplement them with exploratory techniques for edge cases [2], [8].       |
+| **Manual Code Review**   | Apply flexible “off-script” testing strategies; focus on dynamic interactions and hidden dependencies [9]. |
+| **Error Classification** | Prioritise findings based on severity (e.g., critical exploits vs. minor inefficiencies) [2].              |
+| **Reporting & Feedback** | Provide actionable insights while encouraging iterative improvements based on discovered issues [9].       |
 
 ---
 
 ## Enhancing Audits with Advanced Tools
 Whittaker’s principles can be augmented by modern tools like LLM-SmartAudit:
 - Use AI-driven tools for broad analysis (e.g., identifying common vulnerabilities) while focusing manual efforts on targeted analysis for complex issues.
-- [Leverage multi-agent systems to simulate diverse attack scenarios collaboratively and comprehensively analyse vulnerabilities][3].
+- Leverage multi-agent systems to simulate diverse attack scenarios collaboratively and comprehensively analyse vulnerabilities [3].
 
 ---
 
@@ -57,8 +57,6 @@ Whittaker’s principles can be augmented by modern tools like LLM-SmartAudit:
 By incorporating James Whittaker’s exploratory testing methodologies into smart contract audits, security professionals can uncover vulnerabilities that rigid frameworks might miss. This approach emphasises creativity, adaptability, and attacker-like thinking—critical traits in securing blockchain applications against evolving threats.
 
 ---
-
-Sources:
 
 [1]: https://www.abebooks.co.uk/9780201796193/Break-Software-Practical-Guide-Testing-0201796198/plp "How to Break Software: A Practical Guide to Testing - Whittaker, James"
 
