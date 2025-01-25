@@ -8,7 +8,7 @@ Following the **[podcast](https://www.youtube.com/watch?v=Kv45FmLJFLc&t=2573s)**
 Whittaker's approach encourages testers to:
 - **Think like an attacker**: Identify areas where the software is most likely to fail.
 - **Focus on exploratory testing**: Use insight and experience to uncover unexpected vulnerabilities.
-- **Adapt dynamically**: [Modify testing strategies based on findings during the process instead of sticking to predefined scripts][1][4][7].
+- **Adapt dynamically**: [Modify testing strategies based on findings during the process instead of sticking to predefined scripts][1], [4], [7].
 
 These principles align well with the challenges of auditing smart contracts, which often involve complex logic, immutable deployment, and financial risks.
 
