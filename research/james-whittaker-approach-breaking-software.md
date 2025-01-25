@@ -53,7 +53,7 @@ Whittaker’s principles can be augmented by modern tools like LLM-SmartAudit:
 
 ---
 
-## Conclusion
+## Summary
 By incorporating James Whittaker’s exploratory testing methodologies into smart contract audits, security professionals can uncover vulnerabilities that rigid frameworks might miss. This approach emphasises creativity, adaptability, and attacker-like thinking—critical traits in securing blockchain applications against evolving threats.
 
 ---
