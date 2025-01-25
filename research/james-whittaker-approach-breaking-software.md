@@ -59,11 +59,19 @@ By incorporating James Whittaker’s exploratory testing methodologies into smar
 Sources:
 
 [1]: How to Break Software: A Practical Guide to Testing - Whittaker, James https://www.abebooks.co.uk/9780201796193/Break-Software-Practical-Guide-Testing-0201796198/plp
+
 [2]: How To Audit a Smart Contract? | Chainlink https://chain.link/education-hub/how-to-audit-smart-contract
+
 [3]: LLM-SmartAudit: Advanced Smart Contract Vulnerability Detection https://arxiv.org/html/2410.09381v1
+
 [4]: How to Break Software - Google Research https://research.google/pubs/how-to-break-software/
+
 [5]: A Beginner's Guide to a Smart Contract Security Audit | Pyth Network https://www.pyth.network/blog/beginners-guide-to-a-smart-contract-security-audit
+
 [6]: Smart Contracts | Audit, Regulation, Function https://www.srd-rechtsanwaelte.de/en/smart-contracts
+
 [7]: (PDF) How to Break Software (with examples) - ResearchGate https://www.researchgate.net/publication/315700027_How_to_Break_Software_with_examples
+
 [8]: What is a Smart Contract Security Audit? - Full Guide - Cyfrin https://www.cyfrin.io/blog/what-is-a-smart-contract-security-audit
+
 [9]: What Is a Smart Contract Audit? | Hedera https://hedera.com/learning/smart-contracts/smart-contract-audit
