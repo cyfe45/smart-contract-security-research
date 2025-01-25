@@ -1,6 +1,6 @@
 # James Whittake's Approach to Break Software
 
-Following the **[podcast](https://www.youtube.com/watch?v=Kv45FmLJFLc&t=2573s)** between **[riptide](https://x.com/0xriptide)** and **[100proof](https://x.com/1_00_proof)** I wanted to explore the manual testing approach and in particular James Whittaker's *How to Break Software* emphasises exploratory testing techniques that rely on creativity, intuition, and adaptability rather than rigid test plans. These principles can be effectively applied to smart contract security audits, where flexibility and a deep understanding of potential vulnerabilities are crucial. Below is a detailed breakdown of how Whittaker's methodologies can enhance smart contract audits.
+Following the **[podcast](https://www.youtube.com/watch?v=Kv45FmLJFLc&t=2573s)** between **[riptide](https://x.com/0xriptide)** and **[100proof](https://x.com/1_00_proof)** I wanted to explore the manual testing approach and in particular James Whittaker's *How to Break Software* emphasises exploratory testing techniques that rely on creativity, intuition, and adaptability rather than rigid test plans. These principles can be effectively applied to smart contract security audits, where flexibility and a deep understanding of potential vulnerabilities are crucial. Below is are some details on how Whittaker's methodologies can enhance smart contract audits.
 
 ---
 
@@ -8,7 +8,7 @@ Following the **[podcast](https://www.youtube.com/watch?v=Kv45FmLJFLc&t=2573s)**
 Whittaker's approach encourages testers to:
 - **Think like an attacker**: Identify areas where the software is most likely to fail.
 - **Focus on exploratory testing**: Use insight and experience to uncover unexpected vulnerabilities.
-- **Adapt dynamically**: Modify testing strategies based on findings during the process instead of sticking to predefined scripts [1], [4], [7].
+- **Adapt dynamically**: Modify testing strategies based on findings during the process instead of sticking to predefined scripts [1], [6].
 
 These principles align well with the challenges of auditing smart contracts, which often involve complex logic, immutable deployment, and financial risks.
 
@@ -19,18 +19,18 @@ These principles align well with the challenges of auditing smart contracts, whi
 ### 1. **Exploratory Testing for Vulnerability Discovery**
    - **Dynamic Exploration**: Instead of relying solely on automated tools or predefined test cases, auditors can explore the smart contract code dynamically. For example:
      - Test edge cases in contract functions, such as boundary conditions for input variables.
-     - Simulate unexpected interactions between multiple contracts to identify logic vulnerabilities [1], [4].
-   - **Creative Attack Modelling**: Use Whittaker's "attack patterns" concept to simulate real-world attack scenarios, such as reentrancy attacks, integer overflows, or privilege escalation attempts [7], [9].
+     - Simulate unexpected interactions between multiple contracts to identify logic vulnerabilities [1].
+   - **Creative Attack Modelling**: Use Whittaker's "attack patterns" concept to simulate real-world attack scenarios, such as reentrancy attacks, integer overflows, or privilege escalation attempts [6], [8].
 
 ### 2. **Focus on High-Risk Areas**
    - **Critical Path Analysis**: Identify and prioritise testing of high-impact areas in the smart contract, such as functions handling user funds or access control mechanisms.
-   - **Bug Localisation**: Use Whittaker's "nose for bugs" principle to focus on areas where errors are more likely, such as complex mathematical operations or external calls [1], [4].
+   - **Bug Localisation**: Use Whittaker's "nose for bugs" principle to focus on areas where errors are more likely, such as complex mathematical operations or external calls [1].
 
 ### 3. **Flexible Testing Strategies**
    - **On-the-Fly Adjustments**: As issues are discovered during the audit, adapt the testing strategy to focus on related vulnerabilities. For instance:
      - If a reentrancy issue is found in one function, test other functions for similar patterns.
-     - If gas inefficiency is detected, analyse other computationally intensive parts of the contract for optimisation opportunities [1], [9].
-   - **Iterative Testing**: Combine manual and automated testing iteratively. Automated tools can identify basic issues (e.g., unused variables or syntax errors), while manual exploratory testing uncovers deeper logical flaws [2], [8].
+     - If gas inefficiency is detected, analyse other computationally intensive parts of the contract for optimisation opportunities [1], [8].
+   - **Iterative Testing**: Combine manual and automated testing iteratively. Automated tools can identify basic issues (e.g., unused variables or syntax errors), while manual exploratory testing uncovers deeper logical flaws [2], [7].
 
 ---
 
@@ -38,11 +38,11 @@ These principles align well with the challenges of auditing smart contracts, whi
 
 | Audit Phase              | Application of Whittaker’s Techniques                                                                     |
 | ------------------------ | --------------------------------------------------------------------------------------------------------- |
-| **Documentation Review** | Analyse design documents and codebase with an attacker’s mindset; identify potential weak points [5].      |
-| **Automated Testing**    | Use formal verification tools but supplement them with exploratory techniques for edge cases [2], [8].       |
-| **Manual Code Review**   | Apply flexible “off-script” testing strategies; focus on dynamic interactions and hidden dependencies [9]. |
+| **Documentation Review** | Analyse design documents and codebase with an attacker’s mindset; identify potential weak points [4].      |
+| **Automated Testing**    | Use formal verification tools but supplement them with exploratory techniques for edge cases [2], [7].       |
+| **Manual Code Review**   | Apply flexible “off-script” testing strategies; focus on dynamic interactions and hidden dependencies [8]. |
 | **Error Classification** | Prioritise findings based on severity (e.g., critical exploits vs. minor inefficiencies) [2].              |
-| **Reporting & Feedback** | Provide actionable insights while encouraging iterative improvements based on discovered issues [9].       |
+| **Reporting & Feedback** | Provide actionable insights while encouraging iterative improvements based on discovered issues [8].       |
 
 ---
 
@@ -58,20 +58,18 @@ By incorporating James Whittaker’s exploratory testing methodologies into smar
 
 ---
 
-[1]: https://www.abebooks.co.uk/9780201796193/Break-Software-Practical-Guide-Testing-0201796198/plp "How to Break Software: A Practical Guide to Testing - Whittaker, James"
+[1]: https://research.google/pubs/how-to-break-software/ "How to Break Software - Google Research"
 
 [2]: https://chain.link/education-hub/how-to-audit-smart-contract "How To Audit a Smart Contract?"
 
 [3]: https://arxiv.org/html/2410.09381v1 "LLM-SmartAudit: Advanced Smart Contract Vulnerability Detection"
 
-[4]: https://research.google/pubs/how-to-break-software/ "How to Break Software - Google Research"
+[4]: https://www.pyth.network/blog/beginners-guide-to-a-smart-contract-security-audit "A Beginner's Guide to a Smart Contract Security Audit | Pyth Network"
 
-[5]: https://www.pyth.network/blog/beginners-guide-to-a-smart-contract-security-audit "A Beginner's Guide to a Smart Contract Security Audit | Pyth Network"
+[5]: https://www.srd-rechtsanwaelte.de/en/smart-contracts "Smart Contracts | Audit, Regulation, Function"
 
-[6]: https://www.srd-rechtsanwaelte.de/en/smart-contracts "Smart Contracts | Audit, Regulation, Function"
+[6]: https://www.researchgate.net/publication/315700027_How_to_Break_Software_with_examples "How to Break Software (with examples) - ResearchGate"
 
-[7]: https://www.researchgate.net/publication/315700027_How_to_Break_Software_with_examples "How to Break Software (with examples) - ResearchGate"
+[7]: https://www.cyfrin.io/blog/what-is-a-smart-contract-security-audit "What is a Smart Contract Security Audit? - Full Guide - Cyfrin"
 
-[8]: https://www.cyfrin.io/blog/what-is-a-smart-contract-security-audit "What is a Smart Contract Security Audit? - Full Guide - Cyfrin"
-
-[9]: https://hedera.com/learning/smart-contracts/smart-contract-audit "What Is a Smart Contract Audit? | Hedera"
+[8]: https://hedera.com/learning/smart-contracts/smart-contract-audit "What Is a Smart Contract Audit? | Hedera"
