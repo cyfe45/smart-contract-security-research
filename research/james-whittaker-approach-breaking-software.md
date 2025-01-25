@@ -19,18 +19,18 @@ These principles align well with the challenges of auditing smart contracts, whi
 ### 1. **Exploratory Testing for Vulnerability Discovery**
    - **Dynamic Exploration**: Instead of relying solely on automated tools or predefined test cases, auditors can explore the smart contract code dynamically. For example:
      - Test edge cases in contract functions, such as boundary conditions for input variables.
-     - [Simulate unexpected interactions between multiple contracts to identify logic vulnerabilities][1][4].
+     - [Simulate unexpected interactions between multiple contracts to identify logic vulnerabilities][1], [4].
    - **Creative Attack Modelling**: Use Whittaker's "attack patterns" concept to simulate real-world attack scenarios, such as reentrancy attacks, integer overflows, or privilege escalation attempts[7][9].
 
 ### 2. **Focus on High-Risk Areas**
    - **Critical Path Analysis**: Identify and prioritise testing of high-impact areas in the smart contract, such as functions handling user funds or access control mechanisms.
-   - **Bug Localisation**: [Use Whittaker's "nose for bugs" principle to focus on areas where errors are more likely, such as complex mathematical operations or external calls][1][4].
+   - **Bug Localisation**: [Use Whittaker's "nose for bugs" principle to focus on areas where errors are more likely, such as complex mathematical operations or external calls] [1], [4].
 
 ### 3. **Flexible Testing Strategies**
    - **On-the-Fly Adjustments**: As issues are discovered during the audit, adapt the testing strategy to focus on related vulnerabilities. For instance:
      - If a reentrancy issue is found in one function, test other functions for similar patterns.
      - [If gas inefficiency is detected, analyse other computationally intensive parts of the contract for optimisation opportunities][1][9].
-   - **Iterative Testing**: [Combine manual and automated testing iteratively. Automated tools can identify basic issues (e.g., unused variables or syntax errors), while manual exploratory testing uncovers deeper logical flaws][2][8].
+   - **Iterative Testing**: [Combine manual and automated testing iteratively. Automated tools can identify basic issues (e.g., unused variables or syntax errors), while manual exploratory testing uncovers deeper logical flaws][2], [8].
 
 ---
 
