@@ -24,7 +24,7 @@ These principles align well with the challenges of auditing smart contracts, whi
 
 ### 2. **Focus on High-Risk Areas**
    - **Critical Path Analysis**: Identify and prioritise testing of high-impact areas in the smart contract, such as functions handling user funds or access control mechanisms.
-   - **Bug Localisation**: [Use Whittaker's "nose for bugs" principle to focus on areas where errors are more likely, such as complex mathematical operations or external calls] [1], [4].
+   - **Bug Localisation**: Use Whittaker's "nose for bugs" principle to focus on areas where errors are more likely, such as complex mathematical operations or external calls [1], [4].
 
 ### 3. **Flexible Testing Strategies**
    - **On-the-Fly Adjustments**: As issues are discovered during the audit, adapt the testing strategy to focus on related vulnerabilities. For instance:
