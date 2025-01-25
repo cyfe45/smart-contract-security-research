@@ -1,4 +1,4 @@
-# James Whittake's Approach to Break Software
+# James Whittake's Approach to Breaking Software
 
 Following the **[podcast](https://www.youtube.com/watch?v=Kv45FmLJFLc&t=2573s)** between **[riptide](https://x.com/0xriptide)** and **[100proof](https://x.com/1_00_proof)** I wanted to explore the manual testing approach and in particular James Whittaker's *How to Break Software* emphasises exploratory testing techniques that rely on creativity, intuition, and adaptability rather than rigid test plans. These principles can be effectively applied to smart contract security audits, where flexibility and a deep understanding of potential vulnerabilities are crucial. Below is are some details on how Whittaker's methodologies can enhance smart contract audits.
 
