@@ -56,22 +56,24 @@ Whittaker’s principles can be augmented by modern tools like LLM-SmartAudit:
 ## Conclusion
 By incorporating James Whittaker’s exploratory testing methodologies into smart contract audits, security professionals can uncover vulnerabilities that rigid frameworks might miss. This approach emphasises creativity, adaptability, and attacker-like thinking—critical traits in securing blockchain applications against evolving threats.
 
+---
+
 Sources:
 
-[1]: How to Break Software: A Practical Guide to Testing - Whittaker, James https://www.abebooks.co.uk/9780201796193/Break-Software-Practical-Guide-Testing-0201796198/plp
+[1]: https://www.abebooks.co.uk/9780201796193/Break-Software-Practical-Guide-Testing-0201796198/plp "How to Break Software: A Practical Guide to Testing - Whittaker, James"
 
-[2]: How To Audit a Smart Contract? | Chainlink https://chain.link/education-hub/how-to-audit-smart-contract
+[2]: https://chain.link/education-hub/how-to-audit-smart-contract "How To Audit a Smart Contract?"
 
-[3]: LLM-SmartAudit: Advanced Smart Contract Vulnerability Detection https://arxiv.org/html/2410.09381v1
+[3]: https://arxiv.org/html/2410.09381v1 "LLM-SmartAudit: Advanced Smart Contract Vulnerability Detection"
 
-[4]: How to Break Software - Google Research https://research.google/pubs/how-to-break-software/
+[4]: https://research.google/pubs/how-to-break-software/ "How to Break Software - Google Research"
 
-[5]: A Beginner's Guide to a Smart Contract Security Audit | Pyth Network https://www.pyth.network/blog/beginners-guide-to-a-smart-contract-security-audit
+[5]: https://www.pyth.network/blog/beginners-guide-to-a-smart-contract-security-audit "A Beginner's Guide to a Smart Contract Security Audit | Pyth Network"
 
-[6]: Smart Contracts | Audit, Regulation, Function https://www.srd-rechtsanwaelte.de/en/smart-contracts
+[6]: https://www.srd-rechtsanwaelte.de/en/smart-contracts "Smart Contracts | Audit, Regulation, Function"
 
-[7]: (PDF) How to Break Software (with examples) - ResearchGate https://www.researchgate.net/publication/315700027_How_to_Break_Software_with_examples
+[7]: https://www.researchgate.net/publication/315700027_How_to_Break_Software_with_examples "How to Break Software (with examples) - ResearchGate"
 
-[8]: What is a Smart Contract Security Audit? - Full Guide - Cyfrin https://www.cyfrin.io/blog/what-is-a-smart-contract-security-audit
+[8]: https://www.cyfrin.io/blog/what-is-a-smart-contract-security-audit "What is a Smart Contract Security Audit? - Full Guide - Cyfrin"
 
-[9]: What Is a Smart Contract Audit? | Hedera https://hedera.com/learning/smart-contracts/smart-contract-audit
+[9]: https://hedera.com/learning/smart-contracts/smart-contract-audit "What Is a Smart Contract Audit? | Hedera"
