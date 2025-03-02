@@ -49,7 +49,6 @@ Based on a Youtube video by [Alisa Esage](https://www.youtube.com/watch?v=vS1Ecp
 6. **Practical Application: Reverse Engineering Solidity Contracts**
 
   • Use a structured approach:
-  
     1. **Hypothesis**: What does the contract do? What are its core functions?
     2. **Big Picture**: How does it interact with external systems?
     3. **Component Identification**: Owner roles, storage patterns, upgrade mechanisms.
@@ -58,8 +57,7 @@ Based on a Youtube video by [Alisa Esage](https://www.youtube.com/watch?v=vS1Ecp
 
 7. **Use the code base to expand your EVM, Solidity and Security Risks Knowledge**
 
-  • To learn faster and more focused use the codebase to explore and learn more focused. One learns much faster when applying it to a specific problem and looking for solutions.
-  
+  • To learn faster and more focused use the codebase to explore and learn more focused. One learns much faster when applying it to a specific problem and looking for solutions.  
   	•	**Active Learning via Code Exploration:** Rather than passively reading Solidity documentation or security guides, engaging with live codebases forces you to confront real security decisions and vulnerabilities.
   	•	**Problem-Solving Enhances Retention:** Learning by tackling specific problems (e.g., analysing access control issues in a vault contract) makes the information stick much better than abstract study.
   	•	**Pattern Recognition Across Protocols:** By auditing multiple DeFi protocols, you will over time internalise common security pitfalls (e.g., frontrunning risks, unchecked external calls).
