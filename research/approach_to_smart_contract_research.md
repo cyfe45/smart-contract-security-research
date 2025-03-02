@@ -2,7 +2,7 @@
 
 Below is an approach to applying **Complex System Analysis** principles to **Smart Contract Security Research**:
 
-Based on a Youtube video by (Alisa Esage)[https://www.youtube.com/watch?v=vS1Ecpxs7IU&t=40s]
+Based on a Youtube video by [Alisa Esage](https://www.youtube.com/watch?v=vS1Ecpxs7IU&t=40s)
 
 1. **Overcoming Intimidation in DeFi Codebases**
 
