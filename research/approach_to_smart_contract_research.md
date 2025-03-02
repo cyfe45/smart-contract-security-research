@@ -7,7 +7,9 @@ Based on a Youtube video by [Alisa Esage](https://www.youtube.com/watch?v=vS1Ecp
 1. **Overcoming Intimidation in DeFi Codebases**
 
   • As a new smart contract security researchers one might feel overwhelmed by the complexity of **DeFi protocols**.
+  
   • Approach each protocol **without intimidation**, but with structured curiosity.
+  
   • Recognise that smart contract structures follow **common patterns**, e.g., proxy patterns, access controls, upgradeable contracts.
 
 2. **Forming a Big-Picture Hypothesis**
