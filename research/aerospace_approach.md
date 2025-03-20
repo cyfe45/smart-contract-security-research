@@ -1,4 +1,4 @@
-# WWhat Smart Contracts Developers Can Adopt from Aerospace Software Security Practices
+# What Smart Contracts Developers Can Adopt from Aerospace Software Security Practices
 
 ## Introduction
 
