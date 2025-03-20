@@ -1,4 +1,4 @@
-# What Solidity Smart Contracts Can Learn from Aerospace Software Security
+# WWhat Smart Contracts Developers Can Adopt from Aerospace Software Security Practices
 
 ## Introduction
 
@@ -92,7 +92,7 @@ Case 2: [Boeing 737 MAX MCAS Software Failure](https://en.wikipedia.org/wiki/Boe
 
 ⸻
 
-## Conclusion: The Future of Solidity Security
+## Conclusion: The Future of Smart Contract Security
 
 The aerospace industry has mastered building resilient, fail-safe software through formal verification, redundancy, rigorous testing, and cybersecurity best practices.
 
