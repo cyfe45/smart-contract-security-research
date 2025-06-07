@@ -249,7 +249,7 @@ contract EggVaultTest is Test {
 2. Alice's subsequent deposit attempts fail with "Egg already deposited"
 3. Bob withdraws NFT to their own address
 
-## Tools Used
+## [H02] Tools Used
 1. Foundry: For vulnerability reproduction and testing
 2. Manual Code Review: Identified decoupled transfer/deposit flow
 
