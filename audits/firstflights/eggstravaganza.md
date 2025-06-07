@@ -43,7 +43,7 @@ Rationale: Direct control over game outcomes allows attackers to manipulate NFT 
   - This flaw directly violates the core security properties of the protocol (fairness and integrity).
   - Without mitigation, the game is fundamentally broken and exploitable at scale.
 
-## PoC
+## [H01] PoC
 The tests below demonstrate the exploit:
 
 Brute-Force Search
